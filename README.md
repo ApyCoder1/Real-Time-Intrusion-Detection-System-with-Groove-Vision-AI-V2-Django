@@ -31,8 +31,8 @@ This project is a **Real-Time Intrusion Detection System** built using **Grove V
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/intrusion-detection-system.git
-cd intrusion-detection-system
+git clone https://github.com/ApyCoder1/Real-Time-Intrusion-Detection-System-with-Groove-Vision-AI-V2-Django
+
 ```
 
 ### 2. Setup Django Backend
@@ -48,7 +48,7 @@ python manage.py migrate
 
 #### Run Django Server
 ```bash
-python manage.py runserver
+python manage.py runserver 0.0.0.0:8000
 ```
 Your Django API will be available at `http://127.0.0.1:8000/`
 
