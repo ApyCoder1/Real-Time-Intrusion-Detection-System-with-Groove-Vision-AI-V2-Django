@@ -6,15 +6,18 @@ This project is a **Real-Time Intrusion Detection System** built using **Grove V
 ## Features
 - **Real-time person detection** using Grove Vision AI v2.
 - **ESP32-C3 processes and sends captured images** to Django via Base64 encoding.
+- ![g](https://github.com/user-attachments/assets/71ccdb84-b984-4430-ad32-d81a6a5ac65d)
 - **Django backend saves images** in the database.
 - **LED indication** when a person is detected.
 - **Django dashboard to monitor intrusions**, showing:
   - Total detected images.
   - Time-based intrusion counts.
   - Most recent captured images.
+  - ![image](https://github.com/user-attachments/assets/2f9abe28-6f74-4019-92d9-9d08563ca4e0)
+
 
 ## System Architecture
-1. **Train Grove Vision AI v2** with SenseCraft AI to detect a person.
+1. **Train Grove Vision AI v2** with [SenseCraft AI](https://sensecraft.seeed.cc/ai/#/home) to detect a person.
 2. **ESP32-C3 receives detection results** from Grove Vision AI.
 3. **ESP32-C3 captures an image** when a person is detected.
 4. **Image is Base64 encoded** and sent to the Django backend.
