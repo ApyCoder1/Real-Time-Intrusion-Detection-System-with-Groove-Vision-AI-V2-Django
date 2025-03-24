@@ -84,7 +84,7 @@ const char* password = "Your_Password";
    - Total detections.
    - Recent detected images.
    - Time-based detection statistics.
-
+![image](https://github.com/user-attachments/assets/2f9abe28-6f74-4019-92d9-9d08563ca4e0)
 ## API Endpoints
 ### Upload Image
 **Endpoint:**
