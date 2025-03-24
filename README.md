@@ -75,12 +75,14 @@ const char* password = "Your_Password";
 
 ## How It Works
 1. **ESP32 continuously checks for person detection** using Grove Vision AI.
-2. When a person is detected:
+2. ![g](https://github.com/user-attachments/assets/71ccdb84-b984-4430-ad32-d81a6a5ac65d)
+
+3. When a person is detected:
    - The **LED turns ON**.
    - An image is **captured and Base64 encoded**.
    - The **image is sent to Django** via HTTP POST request.
-3. **Django backend saves the image** and updates the dashboard.
-4. **Django Dashboard displays**:
+4. **Django backend saves the image** and updates the dashboard.
+5. **Django Dashboard displays**:
    - Total detections.
    - Recent detected images.
    - Time-based detection statistics.
