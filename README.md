@@ -1,7 +1,7 @@
 # Real-Time Intrusion Detection System
 
 ## Overview
-This project is a **Real-Time Intrusion Detection System** built using **Grove Vision AI v2, Xiao ESP32-C3, and Django**. The system detects a person using **SenseCraft AI** on the Grove Vision AI module, captures an image, encodes it to **Base64**, and sends it to a **Django backend** in real-time. When a person is detected, the **ESP32-C3** also triggers an LED indicator.
+This project is a **Real-Time Intrusion Detection System** built using **Grove Vision AI v2, Xiao ESP32-C3, and Django**. The system detects a person using **[SenseCraft AI](https://sensecraft.seeed.cc/ai/#/home)** on the Grove Vision AI module, captures an image, encodes it to **Base64**, and sends it to a **Django backend** in real-time. When a person is detected, the **ESP32-C3** also triggers an LED indicator.
 
 ## Features
 - **Real-time person detection** using Grove Vision AI v2.
@@ -54,7 +54,7 @@ Your Django API will be available at `http://127.0.0.1:8000/`
 
 ### 3. Flash ESP32-C3 with Arduino Code
 #### Install Required Libraries
-- Install **WiFi.h, HTTPClient.h, mbedtls/base64.h, Seeed_Arduino_SSCMA, Base64.h** in the Arduino IDE.
+- Install **WiFi.h, HTTPClient.h, mbedtls/base64.h, [Seeed_Arduino_SSCMA](https://github.com/Seeed-Studio/Seeed_Arduino_SSCMA/), Base64.h** in the Arduino IDE.
 
 #### Configure WiFi
 Modify the following section in the ESP32 code with your WiFi credentials:
@@ -69,7 +69,7 @@ const char* password = "Your_Password";
 3. Upload the code to your ESP32-C3.
 
 ### 4. Train Grove Vision AI v2
-1. Open **SenseCraft AI**.
+1. Open **[SenseCraft AI](https://sensecraft.seeed.cc/ai/#/home)**.
 2. Train the model to detect persons.
 3. Flash the trained model to **Grove Vision AI v2**.
 
